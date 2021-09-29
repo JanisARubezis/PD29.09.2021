@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pārbaudes darbs</title>
+        <script src="darbs.js"></script>
+        <link rel="stylesheet" href="noforme.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body class=body>
+        <div class=galva>
+            <button class=aktiva onclick="page1()">Sākums</button>
+            <button class=pogas onclick="page2()">Saule</button>
+            <button class=pogas onclick="page3()">Fēniks</button>
+        </div>
+        <h1>Gadi uz aptuveniem cilvēku mūžiem</h1>
+        <div>
+            <input type="number" id=gadi>
+            <button class="pogas virss" onclick="calc()">Apreiķināt</button>
+        </div>
+        <div>
+            <h3>Cilvēku dzīves</h3>
+            <p id="rez"></p>
+        </div>
+    </body>
+</html>

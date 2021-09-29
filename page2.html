@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pārbaudes darbs</title>
+        <script src="darbs.js"></script>
+        <script src="darbs2.js"></script>
+        <link rel="stylesheet" href="noforme.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body class=body>
+        <div class=galva>
+            <button class=pogas onclick="page1()">Sākums</button>
+            <button class=aktiva onclick="page2()">Saule</button>
+            <button class=pogas onclick="page3()">Fēniks</button>
+        </div>
+        <div>
+            <h1>Saule</h1>
+        </div>
+        <div>
+            <canvas id="vieta" style="border: chartreuse; background-color: skyblue;" height="200" width="200"></canvas>
+        </div>
+        <div>
+            <button class="btn btn-warning" onclick="zim()">Zīmē</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+.body {
+    background-color: rgb(206, 14, 0);
+  }
+.galva{
+    background-color: rgb(21, 171, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pogas {
+    background-color: #cac70c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .aktiva {
+    background-color: #0ccaba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .virss:hover {
+    background-color: #0c0077;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font: bold;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
